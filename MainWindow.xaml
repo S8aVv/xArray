@@ -1,0 +1,59 @@
+﻿<Window x:Class="xArray.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Impinj xArray" Height="923.814" Width="1410.746" 
+        Closing="Window_Closing" Background="#FFF0F0F0">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Button Content="Start" Height="23" Margin="22,437,11,-417" 
+                    Name="buttonStart" VerticalAlignment="Center" 
+                    Width="75" Click="buttonStart_Click" Grid.Column="2" 
+                    Background="Gainsboro" />
+            <Button Content="Stop" Height="23" Margin="219,437,-185,-417" 
+                    Name="buttonStop" VerticalAlignment="Center" 
+                    Width="75" Click="buttonStop_Click" Grid.Column="2" 
+                    Background="Gainsboro" />
+            <Button Content="Clear" Height="23" Margin="419,437,-384,-417" 
+                    Name="buttonClear" VerticalAlignment="Center" 
+                    Width="75" Click="buttonClear_Click" Grid.Column="2" 
+                    Background="Gainsboro" />
+            <Button Content="Out" Grid.Column="2" HorizontalAlignment="Left" Height="23" Background="Gainsboro" Margin="612,437,-576,-417" VerticalAlignment="Top" Width="75" Click="ButtonOut_Click"/>
+        </Grid>
+        <ComboBox x:Name="Frequency" HorizontalAlignment="Left" Height="30" Margin="126,56,0,0" Grid.Row="1" VerticalAlignment="Top" Width="207" Loaded="Frequency_Loaded" SelectionChanged="Frequency_SelectionChanged" FontSize="14"/>
+        <Label Content="TxFrequency" HorizontalAlignment="Left" Height="30" Margin="12,56,0,0" Grid.Row="1" VerticalAlignment="Top" Width="114"/>
+        <Label Content="Hostname" HorizontalAlignment="Left" Height="30" Margin="12,138,0,0" Grid.Row="1" VerticalAlignment="Top" Width="114"/>
+        <TextBox x:Name="Host" HorizontalAlignment="Left" Height="30" Margin="126,138,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" Text="169.254.1.1"/>
+        <Label x:Name="Power" Content="TxPower" HorizontalAlignment="Left" Height="30" Margin="466,56,0,0" Grid.Row="1" VerticalAlignment="Top" Width="114"/>
+        <TextBox x:Name="Power1" HorizontalAlignment="Left" Height="30" Margin="585,56,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" Text="27"/>
+        <Label Content="ReportMode" HorizontalAlignment="Left" Height="30" Margin="466,138,0,0" Grid.Row="1" VerticalAlignment="Top" Width="114" RenderTransformOrigin="0.617,0.513"/>
+        <ComboBox x:Name="Report_Mode" HorizontalAlignment="Left" Height="30" Margin="585,138,0,0" Grid.Row="1" VerticalAlignment="Top" Width="207" Loaded="Report_Mode_Loaded" SelectionChanged="Report_Mode_SelectionChanged" FontSize="14"/>
+        <Label Content="ReaderMode" HorizontalAlignment="Left" Height="30" Margin="12,227,0,0" Grid.Row="1" VerticalAlignment="Top" Width="114"/>
+        <ComboBox x:Name="Reader_Mode" HorizontalAlignment="Left" Height="30" Margin="126,227,0,0" Grid.Row="1" VerticalAlignment="Top" Width="207" Loaded="Reader_Mode_Loaded" FontSize="14" SelectionChanged="Reader_Mode_SelectionChanged"/>
+        <Label Content="SearchMode" HorizontalAlignment="Left" Height="30" Margin="466,227,0,0" Grid.Row="1" VerticalAlignment="Top" Width="114"/>
+        <ComboBox x:Name="Search_Mode" HorizontalAlignment="Left" Height="30" Margin="585,227,0,0" Grid.Row="1" VerticalAlignment="Top" Width="207" Loaded="Search_Mode_Loaded" SelectionChanged="Search_Mode_SelectionChanged" FontSize="14"/>
+        <Label Content="RxSensitivity" HorizontalAlignment="Left" Height="30" Margin="896,56,0,0" Grid.Row="1" VerticalAlignment="Top" Width="114"/>
+        <TextBox x:Name="Sensitivity" HorizontalAlignment="Left" Height="30" Margin="1015,56,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="207"/>
+        <Label Content="Sector" HorizontalAlignment="Left" Height="30" Margin="896,138,0,0" Grid.Row="1" VerticalAlignment="Top" Width="114" RenderTransformOrigin="0.404,0.533"/>
+        <TextBox x:Name="Sector" HorizontalAlignment="Left" Height="30" Margin="1015,138,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="207"/>
+        <Image Margin="896,173,42,296" Source="xarray_beams_square.png" Stretch="Fill" Grid.Row="1"/>
+        <ListBox x:Name="listTags" HorizontalAlignment="Left" Height="277" Margin="22,555,0,0" Grid.Row="1" VerticalAlignment="Top" Width="1351"/>
+        <Button x:Name="location" Content="Location" HorizontalAlignment="Left" Height="35" Margin="285,479,0,0" Grid.Row="1" VerticalAlignment="Top" Width="144" Click="location_Click"/>
+        <TextBox x:Name="session" HorizontalAlignment="Left" Height="29" Margin="126,305,0,0" Grid.Row="1" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="207" RenderTransformOrigin="0.842,-0.87"/>
+
+    </Grid>
+</Window>

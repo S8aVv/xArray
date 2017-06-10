@@ -1,0 +1,18 @@
+E:\C#\Impinj\WpfExample\obj\x86\Debug\Impinj xArray.csprojResolveAssemblyReference.cache
+E:\C#\Impinj\WpfExample\obj\x86\Debug\MainWindow.baml
+E:\C#\Impinj\WpfExample\obj\x86\Debug\MainWindow.g.cs
+E:\C#\Impinj\WpfExample\obj\x86\Debug\WpfExample_MarkupCompile.cache
+E:\C#\Impinj\WpfExample\obj\x86\Debug\WpfExample.exe
+E:\C#\Impinj\WpfExample\obj\x86\Debug\WpfExample.pdb
+E:\C#\Impinj\WpfExample\bin\Debug\WpfExample.exe
+E:\C#\Impinj\WpfExample\bin\Debug\WpfExample.pdb
+E:\C#\Impinj\WpfExample\bin\Debug\LLRP.Impinj.dll
+E:\C#\Impinj\WpfExample\bin\Debug\LLRP.dll
+E:\C#\Impinj\WpfExample\bin\Debug\Impinj.OctaneSdk.pdb
+E:\C#\Impinj\WpfExample\bin\Debug\Impinj.OctaneSdk.xml
+E:\C#\Impinj\WpfExample\bin\Debug\LLRP.Impinj.pdb
+E:\C#\Impinj\WpfExample\bin\Debug\LLRP.pdb
+E:\C#\Impinj\WpfExample\obj\x86\Debug\App.g.cs
+E:\C#\Impinj\WpfExample\obj\x86\Debug\WpfExample.g.resources
+E:\C#\Impinj\WpfExample\obj\x86\Debug\xArray.Properties.Resources.resources
+E:\C#\Impinj\WpfExample\obj\x86\Debug\Impinj xArray.csproj.GenerateResource.Cache
